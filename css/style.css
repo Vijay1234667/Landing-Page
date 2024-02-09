@@ -28,7 +28,7 @@
 
 /* hero-section */
 .hero-section {
-    background-image: url(img/header.img.jpg);
+    background-image: url(../img/header.img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -111,7 +111,7 @@
 /* footer-section */
 .footer-section {
     padding: 100px 0px 100px;
-    background-image: url(img/header.img.jpg);
+    background-image: url(../img/header.img.jpg);
     background-position: bottom;
     background-size: cover;
 }
