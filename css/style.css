@@ -157,16 +157,15 @@ button {
 }
 
 /* hero-section */
-.hero-section{
-  margin-top: 55px;
-}
+
 .hero-section {
    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/casey-horner-4rDCa5hBlCs-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   position: relative;
-  height: 675px;
+  height: 725px;
+  padding: 50px 0px;
 }
 .hero-section .hero-section-body {
   position: absolute;
