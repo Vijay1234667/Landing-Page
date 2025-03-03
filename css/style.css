@@ -159,43 +159,58 @@ button {
 /* hero-section */
 
 .hero-section {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/casey-horner-4rDCa5hBlCs-unsplash.jpg);
+   background-image:  url("https://ik.imagekit.io/gku4adhog/1242.jpg?updatedAt=1733738809516");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   position: relative;
   height: 725px;
-  padding: 50px 0px;
 }
 .hero-section .hero-section-body {
   position: absolute;
   top: 50%;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .hero-section h1 {
-  font-size: 49px;
+  font-size: 59px;
+  font-weight: 900;
 }
 .hero-section .header-forms {
   position: relative;
 }
 .header-forms {
-  max-width: 600px;
+  max-width: 650px;
+  margin: auto;
+  width: 100%;
 }
 .header-forms input {
-  padding: 5px;
+  padding: 13px 0px;
   padding-left: 12px;
   width: 100%;
   position: relative;
+  outline: none;
 }
 .hero-btn{
   position: absolute;
   right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  border-radius: 0px;
+}
+.banner-btn .btn{
+  border: 2px solid #bad1e7;
+  padding: 10px 30px;
+  box-shadow: none;
 }
 /* features-icon */
 
 .features-icon {
-  padding:50px 0px 50px;
+  padding:70px 0px 70px;
 }
 .learn-more-btn .btn:hover{
   background-color: rgb(58, 158, 58);
@@ -237,7 +252,7 @@ button {
 
 /* footer-section */
 .footer-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/siyan-ren-5cwPfMLqYs0-unsplash.jpg);
+  background-image:  url("https://ik.imagekit.io/gku4adhog/1242.jpg?updatedAt=1733738809516");
   background-position: bottom;
   height: 300px;
   background-size: cover;
@@ -252,21 +267,35 @@ button {
 .header-forms-2 {
   position: relative;
   width: 600px;
+  margin: auto;
 }
 .foot-btn {
   position: absolute;
   right: 0;
   top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  border-radius: 0px;
+  outline: none;
+
 }
 .header-forms-2 input {
-  padding: 5px;
+  padding: 10px 5px;
   font-weight: 500;
   width: 100%;
+  outline: none;
 }
 /* copyright-section */
 .copyright-section {
   padding: 50px 0px 50px;
+  background-color: #b9ccdf63 !important;
 }
+
+
+
 @media only screen and (max-width: 767px) {
   .navbar-brand {
     font-size: 13px;
@@ -423,10 +452,6 @@ button {
   background-size: cover;
   position: relative;
 }
-
-
-
-
 
 /* copyright-section */
 .copyright-section {
